@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encripador</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1>Encripador y desencripdar de texto</h1>
+                    <p class="texto__parrafo"></p>
+                </div>
+                <h2>Ingresa palabra encriptar o desencriptar</h2>
+                <input type="text" class="container__input" id = "palabra">
+               
+                <div class="chute container__botones">
+                    <button onclick="encriptar();" id="encriptar" class="container__boton" >encriptar</button>
+                    <button onclick="desencriptar();"  class="container__boton" id="reiniciar">desencriptar</button>
+                    <button onclick="copiar();"  class="container__boton" id="copiar">copiar</button>
+                    <textarea name="resultado" class="container__textArea" id="resultado" cols="30" rows="10"> </textarea>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
